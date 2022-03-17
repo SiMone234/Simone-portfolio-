@@ -1,0 +1,119 @@
+
+body {
+font-size: 12px;
+color: rgba(57, 103, 204, 0.79);
+font-family: 'Space Mono', monospace;
+font-family: 'Yuji Boku', serif;
+letter-spacing: -0.1vmax;
+font-size: 1.8;
+line-height: 1.5;
+background-image: url("images/background.jpg");
+
+}
+#image-round{
+  width: 150px;
+  height:150px;
+  border-radius: 50px;
+  box-shadow: 2px 1px 2px lightgrey;
+  max-width: -webkit-fill-available;
+}
+#image-smallround{
+  width: 100px;
+  height:100px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 2px lightgrey;
+  padding-top: 0px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  max-width: -webkit-fill-available;
+}
+
+#image-dog{
+  width: 190px;
+  height:190px;
+  border-radius: 45px;
+  box-shadow: 2px 1px 2px lightgrey;
+  padding-top: 2px;
+  margin-top: 4px;
+  margin-right: 3px;
+  justify-content:space-evenly;
+  max-width: -webkit-fill-available;
+}
+#hello{
+margin-left: 5px;
+margin-top: 0%;
+margin-bottom:0%;
+padding: 30px;
+}
+#a-decoration {    text-decoration: none;
+}
+#bar{
+  background-color: rgba(216, 177, 50, 0.938);
+  border: 1cm;
+  box-shadow: 3px 2px 3px rgb(117, 117, 214);
+  color:rgba(81, 168, 218, 0.39);
+  display: flex;
+  padding-left: 35px;
+  justify-content:space-between;
+  border-radius: 15px;
+   padding-top: 5px;
+
+}.bar-2{
+  background-color: rgba(216, 177, 50, 0.938);
+  border: 1cm;
+  box-shadow: 3px 2px 3px rgb(117, 117, 214);
+  color:rgba(29, 6, 155, 0.534);
+  display: flex;
+  justify-content:space-between;
+  padding: 50px;
+  margin-top: 8px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 15px;
+
+}
+#cooler{
+  text-decoration: none;
+  font-size: 3vh;
+  padding:8px;
+  background-color: rgba(218, 157, 71, 0.685);
+  border-style: double;
+  border-radius: 25px;
+
+}
+#cooler :hover {
+  text-decoration: none;
+  color: red;
+  font-size: 4vh;
+}
+.div-format{
+  background-color: rgba(216, 177, 50, 0.938);
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  padding: 15px;
+
+}
+#list-none{
+  list-style-type: none;
+  margin: 0px;
+  text-size-adjust: 0px;
+  list-style-position: outside;
+
+}
+#background{ margin: 0px;
+}
+#footer{
+  text-align: end;
+  color: red;
+  background-color: rgba(216, 177, 50, 0.938);
+  padding: 1px;
+
+  margin-top: 8px;
+  margin-left: 00px;
+  margin-right: 00px;
+  border-radius: 15px;
+
+}
